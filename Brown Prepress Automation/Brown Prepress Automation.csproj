@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DA120F9-CA60-4085-A8FD-E3F4620A18C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Brown_Prepress_Automation</RootNamespace>
+    <AssemblyName>Brown Prepress Automation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>BPA Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExcelLibrary">
+      <HintPath>References\ExcelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Ghostscript.NET, Version=1.2.0.0, Culture=neutral, PublicKeyToken=f85051de34525b59, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Ghostscript.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>References\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>References\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfToImage">
+      <HintPath>References\PdfToImage.dll</HintPath>
+    </Reference>
+    <Reference Include="QEP">
+      <HintPath>..\QEP\bin\Release\QEP.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customers\Armstrong\FormSettingsArmstrong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\Armstrong\FormSettingsArmstrong.Designer.cs">
+      <DependentUpon>FormSettingsArmstrong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\Armstrong\ModelArmstrong.cs" />
+    <Compile Include="Customers\Armstrong\PreflightArmstrong.cs" />
+    <Compile Include="Customers\Nourison\FormSettingsNourison.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\Nourison\FormSettingsNourison.Designer.cs">
+      <DependentUpon>FormSettingsNourison.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\Nourison\NourisonOutput.cs" />
+    <Compile Include="Customers\Shaw\AveryLabel.cs" />
+    <Compile Include="Customers\Shaw\DownloadShaw.cs" />
+    <Compile Include="Customers\Shaw\FormSettingsShawEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\Shaw\FormSettingsShawEmail.Designer.cs">
+      <DependentUpon>FormSettingsShawEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\Shaw\OutputHPShaw.cs" />
+    <Compile Include="Customers\Shaw\PreflightShaw.cs" />
+    <Compile Include="FormElements.cs" />
+    <Compile Include="Customers\Shaw\FormSettingsShawTuftex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\Shaw\FormSettingsShawTuftex.Designer.cs">
+      <DependentUpon>FormSettingsShawTuftex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogSettings.Designer.cs">
+      <DependentUpon>FormLogSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indigo5600DistCalc.cs" />
+    <Compile Include="MethodsCommon.cs" />
+    <Compile Include="Customers\Shaw\LEGACY-OutputTuftex.cs" />
+    <Compile Include="Customers\Shaw\LEGACY-OutputTuftexMiscOld.cs" />
+    <Compile Include="FormSettingsEmailAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSettingsEmailAccount.Designer.cs">
+      <DependentUpon>FormSettingsEmailAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\Shaw\OutputIndigo6800Shaw.cs" />
+    <Compile Include="MethodsMail.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MethodsMySQL.cs" />
+    <Compile Include="PdfProcessing.cs" />
+    <Compile Include="Preflight.cs" />
+    <Compile Include="Customers\Nourison\PreflightNourison.cs" />
+    <Compile Include="PreflightPdf.cs" />
+    <Compile Include="PrepressLog.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MethodsTicket.cs" />
+    <Compile Include="Customers\Shaw\LEGACY-PreflightTuftexXml.cs" />
+    <Compile Include="Customers\Shaw\LEGACY-PreflightTuftexMiscOld.cs" />
+    <Compile Include="Customers\Shaw\ShawParse.cs" />
+    <Compile Include="Zip.cs" />
+    <Content Include="BPA Icon.ico" />
+    <Content Include="Images\Blank.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Variables.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Customers\Armstrong\FormSettingsArmstrong.resx">
+      <DependentUpon>FormSettingsArmstrong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\Nourison\FormSettingsNourison.resx">
+      <DependentUpon>FormSettingsNourison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\Shaw\FormSettingsShawEmail.resx">
+      <DependentUpon>FormSettingsShawEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\Shaw\FormSettingsShawTuftex.resx">
+      <DependentUpon>FormSettingsShawTuftex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogSettings.resx">
+      <DependentUpon>FormLogSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSettingsEmailAccount.resx">
+      <DependentUpon>FormSettingsEmailAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FormSettings.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="gsdll32.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\none.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\White Background.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\AGaramondPro-Bold.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\AGaramondPro-Regular.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILBI___.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILB____.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILC____.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILI____.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILLUBCD.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILSANUB.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GIL_____.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GLSNECB.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Gotham-Bold.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Gotham-Book.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Gotham-Light.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Gotham-Medium.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\UniversLTStd-BoldCn.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Images\Blank.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Images\Shaw Control Bar.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Content Include="Type\labels.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Old\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Shell32">
+      <Guid>{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

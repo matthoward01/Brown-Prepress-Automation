@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<variables>
+  <ticket>
+    <jobNumber>0000000</jobNumber>
+  </ticket>
+  <mail>
+    <ticketPDF>dennis.hicks@brownind.com</ticketPDF>
+    <tuftexEmail>pam.mcatee@brownind.com</tuftexEmail>
+  </mail>
+  <paths>
+    <xmlTuftexXmfOutput>\\192.168.1.45\Output1\HOTFOLDER - TUFTEX LABELS\</xmlTuftexXmfOutput>
+    <xmlTuftexPDFs>\\192.168.1.45\Customers\Tuftex\Labels\JPGS\</xmlTuftexPDFs>
+    <mohawkHotfolder>\\192.168.1.45\Customers\Mohawk\HOTFOLDER\</mohawkHotfolder>
+    <mohawkError>\\192.168.1.45\Customers\Mohawk\HOTFOLDER\Errors\</mohawkError>
+    <mohawkArchive>\\192.168.1.45\Customers\Mohawk\HOTFOLDER\Archive\</mohawkArchive>
+    <mohawkFiles>\\192.168.1.45\Customers\Mohawk\Print PDFs\</mohawkFiles>
+    <dropboxDirectory>\\192.168.1.45\Shaw_Transfer\SHAW LABEL MAKER\HOTFOLDER\</dropboxDirectory>    
+    <dropboxArchiveDirectory>\\192.168.1.45\Shaw_Transfer\SHAW LABEL MAKER\ARCHIVE\</dropboxArchiveDirectory>
+    <dropboxErrorDirectory>\\192.168.1.45\Shaw_Transfer\SHAW LABEL MAKER\ERRORS\</dropboxErrorDirectory>
+    <dropboxModifiedXLS>\\192.168.1.45\Shaw_Transfer\SHAW LABEL MAKER\MODIFIED XLS\</dropboxModifiedXLS>
+    <indigoTuftexPDFFolder>\\192.168.1.45\Output1\HOTFOLDER - TUFTEX MISC LABELS\</indigoTuftexPDFFolder>
+    <boardOutput>\\192.168.1.45\Parts\</boardOutput>
+    <hpOutput>\\192.168.1.45\Output1\CALDERA HOTFOLDERS\Paper 40x55\</hpOutput>
+    <bluelineOutput>\\192.168.1.45\Output1\HOTFOLDER - BLUELINE\</bluelineOutput>
+    <indigo5600PrintablePDFFolder>\\192.168.1.45\Output1\Printable Hotfolders\Indigo 5600\Printable\</indigo5600PrintablePDFFolder>
+    <indigo6800PrintablePDFFolder>\\192.168.1.45\Output1\Printable Hotfolders\Indigo 6800\Printable\</indigo6800PrintablePDFFolder>
+    <tuftexJpgPath>\\192.168.1.45\Customers\Tuftex\Labels\Jpgs\</tuftexJpgPath>
+    <tuftexPdfPath>\\192.168.1.45\Customers\Tuftex\Labels\Pdfs\</tuftexPdfPath>
+    <SL32>\\192.168.1.45\Tuftex\Labels\SL32.png</SL32>
+    <SL01>\\192.168.1.45\Tuftex\Labels\SL01.png</SL01>
+    <SL02>\\192.168.1.45\Tuftex\Labels\SL02.png</SL02>
+    <SH43>\\192.168.1.45\Tuftex\Labels\SH43.png</SH43>
+    <pdfPath>\\192.168.1.45\PrintablePDFs\Shaw Hardsurfaces\Shaw Proofs\</pdfPath>
+    <hotfolder45x1625Indigo5600>\\192.168.1.45\Output1\Printable Hotfolders\Indigo 5600\Label 4.5 x 1.625\</hotfolder45x1625Indigo5600>
+    <hotfolder1x15Indigo5600>\\192.168.1.45\Output1\Printable Hotfolders\Indigo 5600\Sticker 1 x 1.5\</hotfolder1x15Indigo5600>
+    <hotfolder05Indigo6800>\\192.168.1.45\Output1\Printable Hotfolders\Indigo 6800\Circle Logos 0.5 x 0.5\</hotfolder05Indigo6800>
+    <hotfolder15Indigo6800>\\192.168.1.45\Output1\Printable Hotfolders\Indigo 6800\Circle Logos 1.5 x 1.5\</hotfolder15Indigo6800>
+    <hotfolder275x0312Indigo6800>\\192.168.1.45\Output1\Printable Hotfolders\Indigo 6800\Color Numbers 2.75 x 0.312\</hotfolder275x0312Indigo6800>
+  </paths>
+  <positions>
+    <position sku ="000019729">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="441" y="345.24"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000019731">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021470">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021471">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021691">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021693">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>    
+    <position sku ="000021738">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021739">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021740">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021741">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021742">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021743">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021744">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021745">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000021942">
+      <style>
+        <name x="36.72" y="463.392"></name>
+        <text x="126.36" y="370.8"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4"></name>
+        <text x="126.36" y="314.64"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408"></name>
+        <text x="126.36" y="342.72"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416"></name>
+        <text x="126.36" y="286.56"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424"></name>
+        <text x="151.2" y="258.84"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="48.24" y="233.704"></wo-number>
+      <date x="97.92" y="233.704"></date>
+      <sequence-number x="142.272" y="233.704"></sequence-number>
+    </position>
+    <position sku ="000022510">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000022850">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000022851">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023003">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023004">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023193">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023194">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023195">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023196">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023197">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023198">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023199">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023023">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000023024">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000024002">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000024003">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000025158">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000026046">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="441" y="345.24"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000026047">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000026048">
+      <style>
+        <name x="36.72" y="463.392">STYLE:</name>
+        <text x="93.744" y="463.392"></text>
+      </style>
+      <color>
+        <name x="36.72" y="446.4">COLOR:</name>
+        <text x="93.744" y="446.4"></text>
+      </color>
+      <fiber>
+        <name x="36.72" y="429.408">FIBER:</name>
+        <text x="93.744" y="429.408"></text>
+      </fiber>
+      <width>
+        <name x="36.72" y="412.416">WIDTH:</name>
+        <text x="93.744" y="412.416"></text>
+      </width>
+      <pattern-repeat>
+        <name x="36.72" y="395.424">PATTERN REPEAT:</name>
+        <text x="161.08" y="395.424"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="36.72" y="312.48"></bug-position1>
+      <bug-position2 x="441" y="515.88"></bug-position2>
+      <wo-number x="36.72" y="133.056"></wo-number>
+      <date x="36.72" y="116.064"></date>
+      <sequence-number x="36.72" y="99.072"></sequence-number>
+    </position>
+    <position sku ="000026172">
+      <style>
+        <name x="55.8" y="411.48">STYLE</name>
+        <text x="135.36" y="411.48"></text>
+      </style>
+      <color>
+        <name x="55.8" y="390.24">COLOR</name>
+        <text x="135.36" y="390.24"></text>
+      </color>
+      <fiber>
+        <name x="55.8" y="369.36">FIBER</name>
+        <text x="135.36" y="369.36"></text>
+      </fiber>
+      <width>
+        <name x="55.8" y="348.48">WIDTH</name>
+        <text x="135.36" y="348.48"></text>
+      </width>
+      <pattern-repeat>
+        <name x="55.8" y="327.6">PATTERN</name>
+        <text x="135.36" y="327.6"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="435.4416" y="231.12"></bug-position1>
+      <bug-position2 x="435.4416" y="468"></bug-position2>
+      <wo-number x="92.52" y="79.2"></wo-number>
+      <date x="120.6" y="79.2"></date>
+      <sequence-number x="92.52" y="89.64"></sequence-number>
+    </position>
+    <position sku ="000026173">
+      <style>
+        <name x="55.8" y="411.48">STYLE</name>
+        <text x="135.36" y="411.48"></text>
+      </style>
+      <color>
+        <name x="55.8" y="390.24">COLOR</name>
+        <text x="135.36" y="390.24"></text>
+      </color>
+      <fiber>
+        <name x="55.8" y="369.36">FIBER</name>
+        <text x="135.36" y="369.36"></text>
+      </fiber>
+      <width>
+        <name x="55.8" y="348.48">WIDTH</name>
+        <text x="135.36" y="348.48"></text>
+      </width>
+      <pattern-repeat>
+        <name x="55.8" y="327.6">PATTERN</name>
+        <text x="135.36" y="327.6"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="55.8" y="313.2">REPEAT</name>
+        <text x="135.36" y="313.2"></text>
+      </pattern-repeat2>
+      <bug-position1 x="435.4416" y="231.12"></bug-position1>
+      <bug-position2 x="435.4416" y="468"></bug-position2>
+      <wo-number x="92.52" y="79.2"></wo-number>
+      <date x="120.6" y="79.2"></date>
+      <sequence-number x="92.52" y="89.64"></sequence-number>
+    </position>
+    <position sku ="000026178">
+      <style>
+        <name x="41.76" y="426.24">STYLE</name>
+        <text x="135.36" y="426.24"></text>
+      </style>
+      <color>
+        <name x="41.76" y="405.36">COLOR</name>
+        <text x="135.36" y="405.36"></text>
+      </color>
+      <fiber>
+        <name x="41.76" y="384">FIBER</name>
+        <text x="135.36" y="384"></text>
+      </fiber>
+      <width>
+        <name x="41.76" y="363">WIDTH</name>
+        <text x="135.36" y="363"></text>
+      </width>
+      <pattern-repeat>
+        <name x="41.76" y="342.2">PATTERN</name>
+        <text x="135.36" y="342.2"></text>
+      </pattern-repeat>
+      <pattern-repeat2>
+        <name x="41.76" y="327.994">REPEAT</name>
+        <text x="135.36" y="327.994"></text>
+      </pattern-repeat2>
+      <bug-position1 x="41.76" y="262.8"></bug-position1>
+      <bug-position2 x="435.4416" y="468"></bug-position2>
+      <wo-number x="78.4" y="79.2"></wo-number>
+      <date x="106.6" y="79.2"></date>
+      <sequence-number x="78.4" y="89.64"></sequence-number>
+    </position>
+  </positions>
+  <fibers>
+    <fiber id="57% BCF NYLON/43% S.D. BCF PET POLYESTER">
+      <text>57% BCF Nylon / 43% S.D. BCF PET Polyester</text>
+    </fiber>
+    <fiber id="84% BCF NYLON/16% S.D. BCF PET POLYESTER">
+      <text>84% BCF Nylon / 16% S.D. BCF PET Polyester</text>
+    </fiber>
+    <fiber id="100% STAINMASTER® TACTESSE® BCF NYLON">
+      <text>100% Stainmaster® Tactesse® BCF Nylon</text>
+    </fiber>
+    <fiber id="100% STAINMASTER®  TACTESSE® BCF NYLON">
+      <text>100% Stainmaster® Tactesse® BCF Nylon</text>
+    </fiber>
+    <fiber id="100% ANSO® SOLUTION DYED NYLON">
+      <text>100% Anso® Solution Dyed Nylon</text>
+    </fiber>
+    <fiber id="100% STAINMASTER® BCF NYLON">
+      <text>100% Stainmaster® BCF Nylon</text>
+    </fiber>
+    <fiber id="100% STAINMASTER® TYPE 6,6 BCF NYLON">
+      <text>100% Stainmaster® Type 6,6 BCF Nylon</text>
+    </fiber>
+    <fiber id="100% Stainmaster® Tactesse® BCF Nylon">
+      <text>100% Stainmaster® Tactesse® BCF Nylon</text>
+    </fiber>
+    <fiber id="100% Stainmaster(R) Tactesse(R) BCF Nylon">
+      <text>100% Stainmaster® Tactesse® BCF Nylon</text>
+    </fiber>
+    <fiber id="100% SuperiaSD® nylon 6,6 fiber">
+      <text>100% SuperiaSD® Nylon 6,6 Fiber</text>
+    </fiber>
+    <fiber id="100% SUPERIA SD® NYLON 6,6 FIBER">
+      <text>100% SuperiaSD® Nylon 6,6 Fiber</text>
+    </fiber>
+    <fiber id="100% ANSO® BCF NYLON">
+      <text>100% Anso® BCF Nylon</text>
+    </fiber>
+    <fiber id="100% Anso(R) BCF Nylon">
+      <text>100% Anso® BCF Nylon</text>
+    </fiber>
+    <fiber id="100% CONTINUOUS FILAMENT NYLON">
+      <text>100% Continuous Filament Nylon</text>
+    </fiber>
+  </fibers>
+  <bugs>
+    <bug id="SH80">
+      <text>SoftBac® Platinum 10-year no wrinkle guarantee</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SH79">
+      <text>SoftBac® Platinum 20-year no wrinkle guarantee</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SH76">
+      <text>FHA Approved</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SH77">
+      <text>12' Width Only</text>
+      <text2>none</text2>
+    </bug>    
+    <bug id="SH78">
+      <text>Due to the random color variation of this product,</text>
+      <text2>cross seams are not recommended</text2>
+    </bug>    
+    <bug id="SH72">
+      <text>bulletdot10-year quality assurance warranty</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SH73">
+      <text>bulletdot10-year stain resistance warranty</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SH74">
+      <text>bulletdot10-year texture retention warranty</text>
+      <text2>none</text2>
+    </bug>
+    <!--OLD Bug Numbers-->
+    <bug id="SA01">
+      <text>bulletdot10-year quality assurance warranty</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SA02">
+      <text>bulletdot10-year stain resistance warranty</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SA15">
+      <text>bulletdot10-year texture retention warranty</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SH07">
+      <text>SOFTBAC® PLATINUM 10-YEAR NO-WRINKLE GUARANTEE</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SH09">
+      <text>SOFTBAC® PLATINUM 20-YEAR NO-WRINKLE GUARANTEE</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SH10">
+      <text>FHA APPROVED</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SH05">
+      <text>12' WIDTH ONLY</text>
+      <text2>none</text2>
+    </bug>
+        <bug id="SH14">
+      <text>SHAG CARE - SUCTION VACUUM ONLY</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SH24">
+      <text>STAIN SAFETY® COMBINED SOIL AND STAIN RESISTANCE</text>
+      <text2>none</text2>
+    </bug>
+    <bug id="SA22">
+      <text>DUE TO THE RANDOM COLOR VARIATION OF THIS PRODUCT,</text>
+      <text2>CROSS SEAMS ARE NOT RECOMMENDED</text2>
+    </bug>    
+  </bugs>
+</variables>

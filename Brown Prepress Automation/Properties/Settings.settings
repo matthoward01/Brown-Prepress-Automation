@@ -1,0 +1,159 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Brown_Prepress_Automation.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="lastFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="hotFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\HOTFOLDER\</Value>
+    </Setting>
+    <Setting Name="errorFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\ERRORS\</Value>
+    </Setting>
+    <Setting Name="archiveFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\ARCHIVE\</Value>
+    </Setting>
+    <Setting Name="updateCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="sendEmails" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="debugOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="tempDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Temp\</Value>
+    </Setting>
+    <Setting Name="parts" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Parts\</Value>
+    </Setting>
+    <Setting Name="bluelineOutput" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\HOTFOLDER - BLUELINE\</Value>
+    </Setting>
+    <Setting Name="exchangeServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bii-owa.brownind.com</Value>
+    </Setting>
+    <Setting Name="username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mhoward</Value>
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mh4094</Value>
+    </Setting>
+    <Setting Name="fromEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">matt.howard@brownind.com</Value>
+    </Setting>
+    <Setting Name="printer" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="tuftexEmailList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;pam.mcatee@brownind.com&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="armstrongHotfolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\HOTFOLDER\Armstrong\</Value>
+    </Setting>
+    <Setting Name="armstrongErrorFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\ERROR\Armstrong\</Value>
+    </Setting>
+    <Setting Name="nourisonHotfolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\HOTFOLDER\Nourison\</Value>
+    </Setting>
+    <Setting Name="nourisonErrorFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\ERROR\Nourison\</Value>
+    </Setting>
+    <Setting Name="shawHotfolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\HOTFOLDER\Shaw\</Value>
+    </Setting>
+    <Setting Name="shawErrorFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\ERROR\Shaw\</Value>
+    </Setting>
+    <Setting Name="armstrongPdfs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Customers\Armstrong\PDFs\</Value>
+    </Setting>
+    <Setting Name="XMF5x1_75" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\XMF HOTFOLDERS\OMEGA DIE 284\</Value>
+    </Setting>
+    <Setting Name="armstrongArchiveFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\Archive\Armstrong\</Value>
+    </Setting>
+    <Setting Name="shawArchiveFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\Archive\Shaw\</Value>
+    </Setting>
+    <Setting Name="nourisonArchiveFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\Archive\Nourison\</Value>
+    </Setting>
+    <Setting Name="nourisonHpOutput" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\CALDERA HOTFOLDERS\STYRENE - HQ POP\</Value>
+    </Setting>
+    <Setting Name="nourisonPdfs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Customers\Nourison\POP\Nourison POP\</Value>
+    </Setting>
+    <Setting Name="shawPdfs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\PrintablePDFs\Shaw Hardsurfaces\Shaw Proofs\</Value>
+    </Setting>
+    <Setting Name="shawHpOutput" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.19.200\Watched Folders\Move to Caldera - White Paper\</Value>
+    </Setting>
+    <Setting Name="shawIndigo5600" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\Printable Hotfolders\Indigo 5600\Printable\</Value>
+    </Setting>
+    <Setting Name="shawIndigo6800" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\Printable Hotfolders\Indigo 6800\Printable\</Value>
+    </Setting>
+    <Setting Name="tuftexPdf" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Customers\Tuftex\Labels\Pdfs\</Value>
+    </Setting>
+    <Setting Name="tuftexJpg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Customers\Tuftex\Labels\Jpgs\</Value>
+    </Setting>
+    <Setting Name="tuftexXmlHotfolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\HOTFOLDER - TUFTEX LABELS\</Value>
+    </Setting>
+    <Setting Name="tuftexMiscHotfolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\HOTFOLDER - TUFTEX MISC LABELS\</Value>
+    </Setting>
+    <Setting Name="nourisonCommon" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="armstrongAHFpdfs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Customers\AHF Products\Pdfs\</Value>
+    </Setting>
+    <Setting Name="XMF16x16" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\XMF HOTFOLDERS\ARMSTRONG 16x16\</Value>
+    </Setting>
+    <Setting Name="armstrongEmailList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;irene.sisson@brownind.com&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="prepressHotfolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.19.5\Log\</Value>
+    </Setting>
+    <Setting Name="workerWait" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="downloadPdfName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="xmfHotfolders" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\Output1\BROWN AUTOMATION PROGRAM\XMF HOTFOLDERS\</Value>
+    </Setting>
+    <Setting Name="shawPdfsOld" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.1.45\PrintablePDFs\Shaw Hardsurfaces\Shaw Proofs\</Value>
+    </Setting>
+    <Setting Name="shawEmailList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;matt.howard@brownind.com&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="shawCheckList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
